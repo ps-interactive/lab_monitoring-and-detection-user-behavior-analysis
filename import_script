@@ -3,7 +3,7 @@
 # Set variables
 ELASTICSEARCH_HOST="127.0.0.1:9200"
 INDEX_PATTERN="auditbeat*"
-MAPPINGS_FILE="kibaba_indices_mappings.json"
+MAPPINGS_FILE="kibana_indices_mappings.json"
 INPUT_FILE="kibana_indices_export.json"
 BULK_SIZE=1000  # Number of documents per bulk request
 MAX_BULK_SIZE=5242880  # Maximum bulk size in bytes (5MB)
